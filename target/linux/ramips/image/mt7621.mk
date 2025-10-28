@@ -3038,10 +3038,10 @@ define Device/wavlink_wl-wn533a8
 endef
 TARGET_DEVICES += wavlink_wl-wn533a8
 
-define Device/wavlink_ws-wn572hp3
+define Device/wavlink_wl-wn572hp3
   $(Device/dsa-migration)
   DEVICE_VENDOR := Wavlink
-  DEVICE_MODEL := WS-WN572HP3
+  DEVICE_MODEL := WL-WN572HP3
   IMAGE_SIZE := 15040k
   KERNEL_LOADADDR := 0x82000000
   KERNEL := kernel-bin | relocate-kernel $(loadaddr-y) | lzma | \
@@ -3051,7 +3051,7 @@ define Device/wavlink_ws-wn572hp3
   DEVICE_PACKAGES := kmod-mt7603 kmod-mt7615e kmod-mt7663-firmware-ap \
 	kmod-usb3 kmod-usb-net-rndis -uboot-envtools
 endef
-TARGET_DEVICES += wavlink_ws-wn572hp3
+TARGET_DEVICES += wavlink_wl-wn572hp3
 
 define Device/wavlink_ws-wn572hp3-4g
   $(Device/dsa-migration)
