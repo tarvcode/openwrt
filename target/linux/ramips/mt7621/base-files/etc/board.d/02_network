@@ -79,7 +79,7 @@ ramips_setup_interfaces()
 	keenetic,kn-3510|\
 	meig,slt866|\
 	openfi,5pro|\
-	wavlink,ws-wn572hp3|\
+	wavlink,wl-wn572hp3|\
 	wavlink,ws-wn572hp3-4g|\
 	winstars,ws-wn583a6|\
 	yuncore,ax820|\
